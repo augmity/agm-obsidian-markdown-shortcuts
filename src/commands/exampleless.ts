@@ -23,6 +23,35 @@ export default [
         label: "h6",
         value: "###### ",
     },
+
+    // Links
+    {
+        label: "external-link",
+        value: "[]()",
+    },
+    {
+        label: "image",
+        value: "![]()",
+    },
+    {
+        label: "link",
+        value: "[[|]]",
+    },
+
+    // Code
+    {
+        label: "codeblock",
+        value: `
+\`\`\`
+
+\`\`\``,
+    },
+    {
+        label: "inline-code",
+        value: `\`\``,
+    },
+
+    // Other
     {
         label: "bold",
         value: "****",
@@ -52,30 +81,11 @@ export default [
         value: `- `,
     },
     {
-        label: "external-link",
-        value: "[]()",
-    },
-    {
-        label: "image",
-        value: "![]()",
-    },
-    {
         label: "table",
         value: `
 | | | |
 |---|:---:|---:|
 | | | |`,
-    },
-    {
-        label: "inline-code",
-        value: `\`\``,
-    },
-    {
-        label: "codeblock",
-        value: `
-\`\`\`
-
-\`\`\``,
     },
     {
         label: "todo",
@@ -95,10 +105,6 @@ export default [
     {
         label: "footnote",
         value: "[^]: ",
-    },
-    {
-        label: "link",
-        value: "[[|]]",
     },
     {
         label: "embed",
